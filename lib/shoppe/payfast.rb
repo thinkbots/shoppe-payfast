@@ -1,7 +1,8 @@
-require "shoppe/payfast/version"
+require 'shoppe/payfast/version'
 
 module Shoppe
   module Payfast
-    # Your code goes here...
+    class << self
+    end
   end
 end

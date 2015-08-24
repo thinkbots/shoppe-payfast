@@ -27,8 +27,11 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^exe/}) { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_dependency 'shoppe', '> 0.0.9', '< 1.0.7'
+  s.add_dependency 'shoppe', '> 0.0.9', '<= 1.0.7'
 
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.0'
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'pry-byebug'
 end
