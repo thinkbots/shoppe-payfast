@@ -3,12 +3,12 @@ require 'shoppe/payfast/version'
 module Shoppe
   module Payfast
     class << self
-      def merchand_id
-        Shoppe.settings.payfast_merchand_id
+      def merchant_id
+        Shoppe.settings.payfast_merchant_id
       end
 
-      def merchand_key
-        Shoppe.settings.payfast_merchand_key
+      def merchant_key
+        Shoppe.settings.payfast_merchant_key
       end
 
       def currency
@@ -17,8 +17,8 @@ module Shoppe
 
       def setup
         Shoppe.add_settings_group :payfast, [
-          :payfast_merchand_id,
-          :payfast_merchand_key,
+          :payfast_merchant_id,
+          :payfast_merchant_key,
           :payfast_currency
         ]
       end

@@ -7,16 +7,16 @@ describe Shoppe::Payfast do
     expect(Shoppe::Payfast::VERSION).not_to be nil
   end
 
-  describe '#merchand_id' do
-    xit 'returns the merchand id from shoppe settings' do
+  describe '#merchant_id' do
+    xit 'returns the merchant id from shoppe settings' do
     end
   end
-  describe '#merchand_key' do
-    xit 'returns the merchand key from shoppe settings' do
+  describe '#merchant_key' do
+    xit 'returns the merchant key from shoppe settings' do
     end
   end
   describe '#currency' do
-    xit 'returns the merchand id from shoppe settings' do
+    xit 'returns the merchant id from shoppe settings' do
     end
   end
 
