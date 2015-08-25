@@ -1,0 +1,15 @@
+en:
+  shoppe:
+    settings:
+      labels:
+        payfast_merchant_id: Merchant ID
+        payfast_merchant_key: Merchant Key
+        payfast_currency: Currency Code
+
+      help:
+        payfast_merchand_id: The Merchant ID can be found by logging into your PayFast account and clicking on the Settings page. (https://www.payfast.co.za/acc/integration) They are listed under "Merchant Identifiers"
+        payfast_merchand_key: The Merchant Key can also be found under "Merchant Identifiers" on the Settings page.
+        paypal_currency: The currency which should be sent to Payfast with each of your payment requests
+
+      defaults:
+        paypal_currency: ZAR
