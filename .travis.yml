@@ -1,0 +1,7 @@
+language: ruby
+rvm: 2.2.2
+cache: bundler
+sudo: false
+install: bundle install
+
+script: 'bundle exec rspec'
